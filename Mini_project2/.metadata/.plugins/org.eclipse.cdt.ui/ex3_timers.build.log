@@ -1,0 +1,34 @@
+04:22:51 **** Incremental Build of configuration Debug for project ex3_timers ****
+make all 
+Building file: ../ex3.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"ex3.d" -MT"ex3.o" -c -o "ex3.o" "../ex3.c"
+Finished building: ../ex3.c
+ 
+Building target: ex3_timers.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,ex3_timers.map -mmcu=atmega16 -o "ex3_timers.elf"  ./ex3.o   
+Finished building target: ex3_timers.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S ex3_timers.elf  >"ex3_timers.lss"
+Finished building: ex3_timers.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 ex3_timers.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     354 bytes (2.2% Full)
+(.text + .data + .bootloader)
+
+Data:          2 bytes (0.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+
+04:22:52 Build Finished. 0 errors, 0 warnings. (took 1s.38ms)
+

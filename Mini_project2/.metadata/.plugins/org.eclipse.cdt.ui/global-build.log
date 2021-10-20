@@ -1,0 +1,2183 @@
+02:30:57 **** Build of configuration Debug for project ex1_timers ****
+make all 
+Building file: ../ex1.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"ex1.d" -MT"ex1.o" -c -o "ex1.o" "../ex1.c"
+../ex1.c:20: error: redefinition of '__vector_2'
+../ex1.c:17: error: previous definition of '__vector_2' was here
+../ex1.c:36: warning: return type of 'main' is not 'int'
+make: *** [ex1.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+02:30:58 **** Build of configuration Debug for project mini_project2 ****
+make all 
+Building file: ../mini_project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"mini_project2.d" -MT"mini_project2.o" -c -o "mini_project2.o" "../mini_project2.c"
+../mini_project2.c:18: warning: return type of 'main' is not 'int'
+Finished building: ../mini_project2.c
+ 
+Building target: mini_project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project2.map -mmcu=atmega16 -o "mini_project2.elf"  ./mini_project2.o   
+Finished building target: mini_project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project2.elf  >"mini_project2.lss"
+Finished building: mini_project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     258 bytes (1.6% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:31:26 **** Incremental Build of configuration Debug for project ex1_timers ****
+make all 
+Building file: ../ex1.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"ex1.d" -MT"ex1.o" -c -o "ex1.o" "../ex1.c"
+../ex1.c:20: error: redefinition of '__vector_2'
+../ex1.c:17: error: previous definition of '__vector_2' was here
+../ex1.c:36: warning: return type of 'main' is not 'int'
+make: *** [ex1.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+02:31:26 **** Incremental Build of configuration Debug for project mini_project2 ****
+make all 
+Building file: ../mini_project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"mini_project2.d" -MT"mini_project2.o" -c -o "mini_project2.o" "../mini_project2.c"
+Finished building: ../mini_project2.c
+ 
+Building target: mini_project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project2.map -mmcu=atmega16 -o "mini_project2.elf"  ./mini_project2.o   
+Finished building target: mini_project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project2.elf  >"mini_project2.lss"
+Finished building: mini_project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     258 bytes (1.6% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:33:27 **** Incremental Build of configuration Debug for project ex1_timers ****
+make all 
+Building file: ../ex1.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"ex1.d" -MT"ex1.o" -c -o "ex1.o" "../ex1.c"
+Finished building: ../ex1.c
+ 
+Building target: ex1_timers.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,ex1_timers.map -mmcu=atmega16 -o "ex1_timers.elf"  ./ex1.o   
+Finished building target: ex1_timers.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S ex1_timers.elf  >"ex1_timers.lss"
+Finished building: ex1_timers.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 ex1_timers.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     258 bytes (1.6% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:54:37 **** Incremental Build of configuration Debug for project ex1_timers ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 ex1_timers.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     258 bytes (1.6% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:54:38 **** Build of configuration Debug for project ex2_timers ****
+make all 
+Building file: ../ex2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"ex2.d" -MT"ex2.o" -c -o "ex2.o" "../ex2.c"
+../ex2.c:11: warning: 'TIMER0_OVF' appears to be a misspelled signal handler
+Finished building: ../ex2.c
+ 
+Building target: ex2_timers.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,ex2_timers.map -mmcu=atmega16 -o "ex2_timers.elf"  ./ex2.o   
+Finished building target: ex2_timers.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S ex2_timers.elf  >"ex2_timers.lss"
+Finished building: ex2_timers.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 ex2_timers.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     356 bytes (2.2% Full)
+(.text + .data + .bootloader)
+
+Data:          2 bytes (0.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:55:09 **** Incremental Build of configuration Debug for project ex1_timers ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 ex1_timers.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     258 bytes (1.6% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:55:10 **** Incremental Build of configuration Debug for project ex2_timers ****
+make all 
+Building file: ../ex2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"ex2.d" -MT"ex2.o" -c -o "ex2.o" "../ex2.c"
+Finished building: ../ex2.c
+ 
+Building target: ex2_timers.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,ex2_timers.map -mmcu=atmega16 -o "ex2_timers.elf"  ./ex2.o   
+Finished building target: ex2_timers.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S ex2_timers.elf  >"ex2_timers.lss"
+Finished building: ex2_timers.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 ex2_timers.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     356 bytes (2.2% Full)
+(.text + .data + .bootloader)
+
+Data:          2 bytes (0.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:56:57 **** Incremental Build of configuration Debug for project ex1_timers ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 ex1_timers.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     258 bytes (1.6% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:56:57 **** Incremental Build of configuration Debug for project ex2_timers ****
+make all 
+Building file: ../ex2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"ex2.d" -MT"ex2.o" -c -o "ex2.o" "../ex2.c"
+Finished building: ../ex2.c
+ 
+Building target: ex2_timers.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,ex2_timers.map -mmcu=atmega16 -o "ex2_timers.elf"  ./ex2.o   
+Finished building target: ex2_timers.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S ex2_timers.elf  >"ex2_timers.lss"
+Finished building: ex2_timers.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 ex2_timers.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     348 bytes (2.1% Full)
+(.text + .data + .bootloader)
+
+Data:          2 bytes (0.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+03:24:57 **** Build of configuration Debug for project challenge1_timers ****
+make all 
+Building file: ../ch1.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"ch1.d" -MT"ch1.o" -c -o "ch1.o" "../ch1.c"
+Finished building: ../ch1.c
+ 
+Building target: challenge1_timers.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,challenge1_timers.map -mmcu=atmega16 -o "challenge1_timers.elf"  ./ch1.o   
+Finished building target: challenge1_timers.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S challenge1_timers.elf  >"challenge1_timers.lss"
+Finished building: challenge1_timers.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 challenge1_timers.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     396 bytes (2.4% Full)
+(.text + .data + .bootloader)
+
+Data:          4 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+03:24:58 **** Incremental Build of configuration Debug for project ex1_timers ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 ex1_timers.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     258 bytes (1.6% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+03:24:58 **** Incremental Build of configuration Debug for project ex2_timers ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 ex2_timers.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     348 bytes (2.1% Full)
+(.text + .data + .bootloader)
+
+Data:          2 bytes (0.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+03:27:10 **** Incremental Build of configuration Debug for project challenge1_timers ****
+make all 
+Building file: ../ch1.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"ch1.d" -MT"ch1.o" -c -o "ch1.o" "../ch1.c"
+Finished building: ../ch1.c
+ 
+Building target: challenge1_timers.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,challenge1_timers.map -mmcu=atmega16 -o "challenge1_timers.elf"  ./ch1.o   
+Finished building target: challenge1_timers.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S challenge1_timers.elf  >"challenge1_timers.lss"
+Finished building: challenge1_timers.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 challenge1_timers.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     404 bytes (2.5% Full)
+(.text + .data + .bootloader)
+
+Data:          4 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+03:27:11 **** Incremental Build of configuration Debug for project ex1_timers ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 ex1_timers.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     258 bytes (1.6% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+03:27:12 **** Incremental Build of configuration Debug for project ex2_timers ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 ex2_timers.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     348 bytes (2.1% Full)
+(.text + .data + .bootloader)
+
+Data:          2 bytes (0.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+04:22:18 **** Incremental Build of configuration Debug for project challenge1_timers ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 challenge1_timers.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     404 bytes (2.5% Full)
+(.text + .data + .bootloader)
+
+Data:          4 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+04:22:18 **** Incremental Build of configuration Debug for project ex1_timers ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 ex1_timers.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     258 bytes (1.6% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+04:22:19 **** Incremental Build of configuration Debug for project ex2_timers ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 ex2_timers.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     348 bytes (2.1% Full)
+(.text + .data + .bootloader)
+
+Data:          2 bytes (0.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+04:22:19 **** Build of configuration Debug for project ex3_timers ****
+make all 
+Building file: ../ex3.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"ex3.d" -MT"ex3.o" -c -o "ex3.o" "../ex3.c"
+../ex3.c:10: warning: 'TIMER0_CTC_vect' appears to be a misspelled signal handler
+Finished building: ../ex3.c
+ 
+Building target: ex3_timers.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,ex3_timers.map -mmcu=atmega16 -o "ex3_timers.elf"  ./ex3.o   
+Finished building target: ex3_timers.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S ex3_timers.elf  >"ex3_timers.lss"
+Finished building: ex3_timers.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 ex3_timers.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     354 bytes (2.2% Full)
+(.text + .data + .bootloader)
+
+Data:          2 bytes (0.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+04:22:49 **** Incremental Build of configuration Debug for project challenge1_timers ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 challenge1_timers.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     404 bytes (2.5% Full)
+(.text + .data + .bootloader)
+
+Data:          4 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+04:22:49 **** Incremental Build of configuration Debug for project ex1_timers ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 ex1_timers.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     258 bytes (1.6% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+04:22:50 **** Incremental Build of configuration Debug for project ex2_timers ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 ex2_timers.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     348 bytes (2.1% Full)
+(.text + .data + .bootloader)
+
+Data:          2 bytes (0.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+04:22:51 **** Incremental Build of configuration Debug for project ex3_timers ****
+make all 
+Building file: ../ex3.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"ex3.d" -MT"ex3.o" -c -o "ex3.o" "../ex3.c"
+Finished building: ../ex3.c
+ 
+Building target: ex3_timers.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,ex3_timers.map -mmcu=atmega16 -o "ex3_timers.elf"  ./ex3.o   
+Finished building target: ex3_timers.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S ex3_timers.elf  >"ex3_timers.lss"
+Finished building: ex3_timers.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 ex3_timers.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     354 bytes (2.2% Full)
+(.text + .data + .bootloader)
+
+Data:          2 bytes (0.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:48:34 **** Incremental Build of configuration Debug for project mini_project2 ****
+make all 
+Building file: ../mini_project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"mini_project2.d" -MT"mini_project2.o" -c -o "mini_project2.o" "../mini_project2.c"
+../mini_project2.c:58: warning: return type of 'main' is not 'int'
+../mini_project2.c: In function 'main':
+../mini_project2.c:65: warning: implicit declaration of function 'swich'
+../mini_project2.c:65: error: expected ';' before '{' token
+../mini_project2.c:62: warning: unused variable 'val'
+make: *** [mini_project2.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:49:32 **** Incremental Build of configuration Debug for project mini_project2 ****
+make all 
+Building file: ../mini_project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"mini_project2.d" -MT"mini_project2.o" -c -o "mini_project2.o" "../mini_project2.c"
+Finished building: ../mini_project2.c
+ 
+Building target: mini_project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project2.map -mmcu=atmega16 -o "mini_project2.elf"  ./mini_project2.o   
+Finished building target: mini_project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project2.elf  >"mini_project2.lss"
+Finished building: mini_project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    1192 bytes (7.3% Full)
+(.text + .data + .bootloader)
+
+Data:          6 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:16:10 **** Incremental Build of configuration Debug for project mini_project2 ****
+make all 
+Building file: ../mini_project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"mini_project2.d" -MT"mini_project2.o" -c -o "mini_project2.o" "../mini_project2.c"
+Finished building: ../mini_project2.c
+ 
+Building target: mini_project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project2.map -mmcu=atmega16 -o "mini_project2.elf"  ./mini_project2.o   
+Finished building target: mini_project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project2.elf  >"mini_project2.lss"
+Finished building: mini_project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    1192 bytes (7.3% Full)
+(.text + .data + .bootloader)
+
+Data:          6 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:20:17 **** Incremental Build of configuration Debug for project mini_project2 ****
+make all 
+Building file: ../mini_project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"mini_project2.d" -MT"mini_project2.o" -c -o "mini_project2.o" "../mini_project2.c"
+Finished building: ../mini_project2.c
+ 
+Building target: mini_project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project2.map -mmcu=atmega16 -o "mini_project2.elf"  ./mini_project2.o   
+Finished building target: mini_project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project2.elf  >"mini_project2.lss"
+Finished building: mini_project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    1104 bytes (6.7% Full)
+(.text + .data + .bootloader)
+
+Data:          6 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:21:22 **** Incremental Build of configuration Debug for project mini_project2 ****
+make all 
+Building file: ../mini_project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"mini_project2.d" -MT"mini_project2.o" -c -o "mini_project2.o" "../mini_project2.c"
+Finished building: ../mini_project2.c
+ 
+Building target: mini_project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project2.map -mmcu=atmega16 -o "mini_project2.elf"  ./mini_project2.o   
+Finished building target: mini_project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project2.elf  >"mini_project2.lss"
+Finished building: mini_project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    1108 bytes (6.8% Full)
+(.text + .data + .bootloader)
+
+Data:          6 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:22:35 **** Incremental Build of configuration Debug for project mini_project2 ****
+make all 
+Building file: ../mini_project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"mini_project2.d" -MT"mini_project2.o" -c -o "mini_project2.o" "../mini_project2.c"
+Finished building: ../mini_project2.c
+ 
+Building target: mini_project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project2.map -mmcu=atmega16 -o "mini_project2.elf"  ./mini_project2.o   
+Finished building target: mini_project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project2.elf  >"mini_project2.lss"
+Finished building: mini_project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    1116 bytes (6.8% Full)
+(.text + .data + .bootloader)
+
+Data:          6 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:24:11 **** Incremental Build of configuration Debug for project mini_project2 ****
+make all 
+Building file: ../mini_project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"mini_project2.d" -MT"mini_project2.o" -c -o "mini_project2.o" "../mini_project2.c"
+../mini_project2.c: In function 'main':
+../mini_project2.c:60: warning: unused variable 'seg_i'
+Finished building: ../mini_project2.c
+ 
+Building target: mini_project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project2.map -mmcu=atmega16 -o "mini_project2.elf"  ./mini_project2.o   
+Finished building target: mini_project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project2.elf  >"mini_project2.lss"
+Finished building: mini_project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     736 bytes (4.5% Full)
+(.text + .data + .bootloader)
+
+Data:          6 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:30:50 **** Incremental Build of configuration Debug for project mini_project2 ****
+make all 
+Building file: ../mini_project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"mini_project2.d" -MT"mini_project2.o" -c -o "mini_project2.o" "../mini_project2.c"
+Finished building: ../mini_project2.c
+ 
+Building target: mini_project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project2.map -mmcu=atmega16 -o "mini_project2.elf"  ./mini_project2.o   
+Finished building target: mini_project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project2.elf  >"mini_project2.lss"
+Finished building: mini_project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    1094 bytes (6.7% Full)
+(.text + .data + .bootloader)
+
+Data:          6 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:32:33 **** Incremental Build of configuration Debug for project mini_project2 ****
+make all 
+Building file: ../mini_project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"mini_project2.d" -MT"mini_project2.o" -c -o "mini_project2.o" "../mini_project2.c"
+Finished building: ../mini_project2.c
+ 
+Building target: mini_project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project2.map -mmcu=atmega16 -o "mini_project2.elf"  ./mini_project2.o   
+Finished building target: mini_project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project2.elf  >"mini_project2.lss"
+Finished building: mini_project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    1072 bytes (6.5% Full)
+(.text + .data + .bootloader)
+
+Data:          6 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:37:02 **** Incremental Build of configuration Debug for project mini_project2 ****
+make all 
+Building file: ../mini_project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"mini_project2.d" -MT"mini_project2.o" -c -o "mini_project2.o" "../mini_project2.c"
+Finished building: ../mini_project2.c
+ 
+Building target: mini_project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project2.map -mmcu=atmega16 -o "mini_project2.elf"  ./mini_project2.o   
+Finished building target: mini_project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project2.elf  >"mini_project2.lss"
+Finished building: mini_project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    1056 bytes (6.4% Full)
+(.text + .data + .bootloader)
+
+Data:          6 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:37:18 **** Incremental Build of configuration Debug for project mini_project2 ****
+make all 
+Building file: ../mini_project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"mini_project2.d" -MT"mini_project2.o" -c -o "mini_project2.o" "../mini_project2.c"
+Finished building: ../mini_project2.c
+ 
+Building target: mini_project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project2.map -mmcu=atmega16 -o "mini_project2.elf"  ./mini_project2.o   
+Finished building target: mini_project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project2.elf  >"mini_project2.lss"
+Finished building: mini_project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    1078 bytes (6.6% Full)
+(.text + .data + .bootloader)
+
+Data:          6 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:48:08 **** Incremental Build of configuration Debug for project mini_project2 ****
+make all 
+Building file: ../mini_project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"mini_project2.d" -MT"mini_project2.o" -c -o "mini_project2.o" "../mini_project2.c"
+Finished building: ../mini_project2.c
+ 
+Building target: mini_project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project2.map -mmcu=atmega16 -o "mini_project2.elf"  ./mini_project2.o   
+Finished building target: mini_project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project2.elf  >"mini_project2.lss"
+Finished building: mini_project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    1102 bytes (6.7% Full)
+(.text + .data + .bootloader)
+
+Data:          6 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:56:06 **** Incremental Build of configuration Debug for project mini_project2 ****
+make all 
+Building file: ../mini_project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"mini_project2.d" -MT"mini_project2.o" -c -o "mini_project2.o" "../mini_project2.c"
+Finished building: ../mini_project2.c
+ 
+Building target: mini_project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project2.map -mmcu=atmega16 -o "mini_project2.elf"  ./mini_project2.o   
+Finished building target: mini_project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project2.elf  >"mini_project2.lss"
+Finished building: mini_project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    1110 bytes (6.8% Full)
+(.text + .data + .bootloader)
+
+Data:          6 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:56:39 **** Incremental Build of configuration Debug for project mini_project2 ****
+make all 
+Building file: ../mini_project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"mini_project2.d" -MT"mini_project2.o" -c -o "mini_project2.o" "../mini_project2.c"
+Finished building: ../mini_project2.c
+ 
+Building target: mini_project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project2.map -mmcu=atmega16 -o "mini_project2.elf"  ./mini_project2.o   
+Finished building target: mini_project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project2.elf  >"mini_project2.lss"
+Finished building: mini_project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    1086 bytes (6.6% Full)
+(.text + .data + .bootloader)
+
+Data:          6 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:00:23 **** Incremental Build of configuration Debug for project mini_project2 ****
+make all 
+Building file: ../mini_project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"mini_project2.d" -MT"mini_project2.o" -c -o "mini_project2.o" "../mini_project2.c"
+Finished building: ../mini_project2.c
+ 
+Building target: mini_project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project2.map -mmcu=atmega16 -o "mini_project2.elf"  ./mini_project2.o   
+Finished building target: mini_project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project2.elf  >"mini_project2.lss"
+Finished building: mini_project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    1078 bytes (6.6% Full)
+(.text + .data + .bootloader)
+
+Data:          6 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:03:03 **** Incremental Build of configuration Debug for project mini_project2 ****
+make all 
+Building file: ../mini_project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"mini_project2.d" -MT"mini_project2.o" -c -o "mini_project2.o" "../mini_project2.c"
+Finished building: ../mini_project2.c
+ 
+Building target: mini_project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project2.map -mmcu=atmega16 -o "mini_project2.elf"  ./mini_project2.o   
+Finished building target: mini_project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project2.elf  >"mini_project2.lss"
+Finished building: mini_project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    1086 bytes (6.6% Full)
+(.text + .data + .bootloader)
+
+Data:          6 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:03:44 **** Incremental Build of configuration Debug for project mini_project2 ****
+make all 
+Building file: ../mini_project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"mini_project2.d" -MT"mini_project2.o" -c -o "mini_project2.o" "../mini_project2.c"
+Finished building: ../mini_project2.c
+ 
+Building target: mini_project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project2.map -mmcu=atmega16 -o "mini_project2.elf"  ./mini_project2.o   
+Finished building target: mini_project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project2.elf  >"mini_project2.lss"
+Finished building: mini_project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    1086 bytes (6.6% Full)
+(.text + .data + .bootloader)
+
+Data:          6 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:05:39 **** Incremental Build of configuration Debug for project mini_project2 ****
+make all 
+Building file: ../mini_project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"mini_project2.d" -MT"mini_project2.o" -c -o "mini_project2.o" "../mini_project2.c"
+Finished building: ../mini_project2.c
+ 
+Building target: mini_project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project2.map -mmcu=atmega16 -o "mini_project2.elf"  ./mini_project2.o   
+Finished building target: mini_project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project2.elf  >"mini_project2.lss"
+Finished building: mini_project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    1086 bytes (6.6% Full)
+(.text + .data + .bootloader)
+
+Data:          6 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:12:10 **** Incremental Build of configuration Debug for project mini_project2 ****
+make all 
+Building file: ../mini_project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"mini_project2.d" -MT"mini_project2.o" -c -o "mini_project2.o" "../mini_project2.c"
+Finished building: ../mini_project2.c
+ 
+Building target: mini_project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project2.map -mmcu=atmega16 -o "mini_project2.elf"  ./mini_project2.o   
+Finished building target: mini_project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project2.elf  >"mini_project2.lss"
+Finished building: mini_project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    1082 bytes (6.6% Full)
+(.text + .data + .bootloader)
+
+Data:          6 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:13:57 **** Incremental Build of configuration Debug for project mini_project2 ****
+make all 
+Building file: ../mini_project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"mini_project2.d" -MT"mini_project2.o" -c -o "mini_project2.o" "../mini_project2.c"
+Finished building: ../mini_project2.c
+ 
+Building target: mini_project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project2.map -mmcu=atmega16 -o "mini_project2.elf"  ./mini_project2.o   
+Finished building target: mini_project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project2.elf  >"mini_project2.lss"
+Finished building: mini_project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    1082 bytes (6.6% Full)
+(.text + .data + .bootloader)
+
+Data:          6 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:15:26 **** Incremental Build of configuration Debug for project mini_project2 ****
+make all 
+Building file: ../mini_project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"mini_project2.d" -MT"mini_project2.o" -c -o "mini_project2.o" "../mini_project2.c"
+Finished building: ../mini_project2.c
+ 
+Building target: mini_project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project2.map -mmcu=atmega16 -o "mini_project2.elf"  ./mini_project2.o   
+Finished building target: mini_project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project2.elf  >"mini_project2.lss"
+Finished building: mini_project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    1082 bytes (6.6% Full)
+(.text + .data + .bootloader)
+
+Data:          6 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:16:54 **** Incremental Build of configuration Debug for project mini_project2 ****
+make all 
+Building file: ../mini_project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"mini_project2.d" -MT"mini_project2.o" -c -o "mini_project2.o" "../mini_project2.c"
+Finished building: ../mini_project2.c
+ 
+Building target: mini_project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project2.map -mmcu=atmega16 -o "mini_project2.elf"  ./mini_project2.o   
+Finished building target: mini_project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project2.elf  >"mini_project2.lss"
+Finished building: mini_project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    1082 bytes (6.6% Full)
+(.text + .data + .bootloader)
+
+Data:          6 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:22:22 **** Incremental Build of configuration Debug for project mini_project2 ****
+make all 
+Building file: ../mini_project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"mini_project2.d" -MT"mini_project2.o" -c -o "mini_project2.o" "../mini_project2.c"
+Finished building: ../mini_project2.c
+ 
+Building target: mini_project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project2.map -mmcu=atmega16 -o "mini_project2.elf"  ./mini_project2.o   
+Finished building target: mini_project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project2.elf  >"mini_project2.lss"
+Finished building: mini_project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    1082 bytes (6.6% Full)
+(.text + .data + .bootloader)
+
+Data:          6 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:41:38 **** Incremental Build of configuration Debug for project mini_project2 ****
+make all 
+Building file: ../mini_project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"mini_project2.d" -MT"mini_project2.o" -c -o "mini_project2.o" "../mini_project2.c"
+Finished building: ../mini_project2.c
+ 
+Building target: mini_project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project2.map -mmcu=atmega16 -o "mini_project2.elf"  ./mini_project2.o   
+Finished building target: mini_project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project2.elf  >"mini_project2.lss"
+Finished building: mini_project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    1082 bytes (6.6% Full)
+(.text + .data + .bootloader)
+
+Data:          6 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:42:52 **** Incremental Build of configuration Debug for project mini_project2 ****
+make all 
+Building file: ../mini_project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"mini_project2.d" -MT"mini_project2.o" -c -o "mini_project2.o" "../mini_project2.c"
+Finished building: ../mini_project2.c
+ 
+Building target: mini_project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project2.map -mmcu=atmega16 -o "mini_project2.elf"  ./mini_project2.o   
+Finished building target: mini_project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project2.elf  >"mini_project2.lss"
+Finished building: mini_project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    1086 bytes (6.6% Full)
+(.text + .data + .bootloader)
+
+Data:          6 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:44:05 **** Incremental Build of configuration Debug for project mini_project2 ****
+make all 
+Building file: ../mini_project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"mini_project2.d" -MT"mini_project2.o" -c -o "mini_project2.o" "../mini_project2.c"
+Finished building: ../mini_project2.c
+ 
+Building target: mini_project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project2.map -mmcu=atmega16 -o "mini_project2.elf"  ./mini_project2.o   
+Finished building target: mini_project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project2.elf  >"mini_project2.lss"
+Finished building: mini_project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    1100 bytes (6.7% Full)
+(.text + .data + .bootloader)
+
+Data:          6 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:45:31 **** Incremental Build of configuration Debug for project mini_project2 ****
+make all 
+Building file: ../mini_project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"mini_project2.d" -MT"mini_project2.o" -c -o "mini_project2.o" "../mini_project2.c"
+Finished building: ../mini_project2.c
+ 
+Building target: mini_project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project2.map -mmcu=atmega16 -o "mini_project2.elf"  ./mini_project2.o   
+Finished building target: mini_project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project2.elf  >"mini_project2.lss"
+Finished building: mini_project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    1100 bytes (6.7% Full)
+(.text + .data + .bootloader)
+
+Data:          6 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:32:41 **** Incremental Build of configuration Debug for project mini_project2 ****
+make all 
+Building file: ../mini_project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"mini_project2.d" -MT"mini_project2.o" -c -o "mini_project2.o" "../mini_project2.c"
+Finished building: ../mini_project2.c
+ 
+Building target: mini_project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project2.map -mmcu=atmega16 -o "mini_project2.elf"  ./mini_project2.o   
+Finished building target: mini_project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project2.elf  >"mini_project2.lss"
+Finished building: mini_project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    1096 bytes (6.7% Full)
+(.text + .data + .bootloader)
+
+Data:          6 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:54:33 **** Incremental Build of configuration Debug for project mini_project2 ****
+make all 
+Building file: ../mini_project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"mini_project2.d" -MT"mini_project2.o" -c -o "mini_project2.o" "../mini_project2.c"
+Finished building: ../mini_project2.c
+ 
+Building target: mini_project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project2.map -mmcu=atmega16 -o "mini_project2.elf"  ./mini_project2.o   
+Finished building target: mini_project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project2.elf  >"mini_project2.lss"
+Finished building: mini_project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    1070 bytes (6.5% Full)
+(.text + .data + .bootloader)
+
+Data:          6 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:55:05 **** Incremental Build of configuration Debug for project mini_project2 ****
+make all 
+Building file: ../mini_project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"mini_project2.d" -MT"mini_project2.o" -c -o "mini_project2.o" "../mini_project2.c"
+Finished building: ../mini_project2.c
+ 
+Building target: mini_project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project2.map -mmcu=atmega16 -o "mini_project2.elf"  ./mini_project2.o   
+Finished building target: mini_project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project2.elf  >"mini_project2.lss"
+Finished building: mini_project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    1074 bytes (6.6% Full)
+(.text + .data + .bootloader)
+
+Data:          6 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:57:50 **** Incremental Build of configuration Debug for project mini_project2 ****
+make all 
+Building file: ../mini_project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"mini_project2.d" -MT"mini_project2.o" -c -o "mini_project2.o" "../mini_project2.c"
+Finished building: ../mini_project2.c
+ 
+Building target: mini_project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project2.map -mmcu=atmega16 -o "mini_project2.elf"  ./mini_project2.o   
+Finished building target: mini_project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project2.elf  >"mini_project2.lss"
+Finished building: mini_project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    1056 bytes (6.4% Full)
+(.text + .data + .bootloader)
+
+Data:          6 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:58:15 **** Incremental Build of configuration Debug for project mini_project2 ****
+make all 
+Building file: ../mini_project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"mini_project2.d" -MT"mini_project2.o" -c -o "mini_project2.o" "../mini_project2.c"
+Finished building: ../mini_project2.c
+ 
+Building target: mini_project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project2.map -mmcu=atmega16 -o "mini_project2.elf"  ./mini_project2.o   
+Finished building target: mini_project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project2.elf  >"mini_project2.lss"
+Finished building: mini_project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    1060 bytes (6.5% Full)
+(.text + .data + .bootloader)
+
+Data:          6 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:07:11 **** Incremental Build of configuration Debug for project mini_project2 ****
+make all 
+Building file: ../mini_project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"mini_project2.d" -MT"mini_project2.o" -c -o "mini_project2.o" "../mini_project2.c"
+Finished building: ../mini_project2.c
+ 
+Building target: mini_project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project2.map -mmcu=atmega16 -o "mini_project2.elf"  ./mini_project2.o   
+Finished building target: mini_project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project2.elf  >"mini_project2.lss"
+Finished building: mini_project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    1042 bytes (6.4% Full)
+(.text + .data + .bootloader)
+
+Data:          6 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:08:59 **** Incremental Build of configuration Debug for project mini_project2 ****
+make all 
+Building file: ../mini_project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"mini_project2.d" -MT"mini_project2.o" -c -o "mini_project2.o" "../mini_project2.c"
+Finished building: ../mini_project2.c
+ 
+Building target: mini_project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project2.map -mmcu=atmega16 -o "mini_project2.elf"  ./mini_project2.o   
+Finished building target: mini_project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project2.elf  >"mini_project2.lss"
+Finished building: mini_project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    1014 bytes (6.2% Full)
+(.text + .data + .bootloader)
+
+Data:          6 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:09:32 **** Incremental Build of configuration Debug for project mini_project2 ****
+make all 
+Building file: ../mini_project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"mini_project2.d" -MT"mini_project2.o" -c -o "mini_project2.o" "../mini_project2.c"
+Finished building: ../mini_project2.c
+ 
+Building target: mini_project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project2.map -mmcu=atmega16 -o "mini_project2.elf"  ./mini_project2.o   
+Finished building target: mini_project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project2.elf  >"mini_project2.lss"
+Finished building: mini_project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    1042 bytes (6.4% Full)
+(.text + .data + .bootloader)
+
+Data:          6 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:30:59 **** Incremental Build of configuration Debug for project mini_project2 ****
+make all 
+Building file: ../mini_project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"mini_project2.d" -MT"mini_project2.o" -c -o "mini_project2.o" "../mini_project2.c"
+In file included from ../mini_project2.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../mini_project2.c
+ 
+Building target: mini_project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project2.map -mmcu=atmega16 -o "mini_project2.elf"  ./mini_project2.o   
+Finished building target: mini_project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project2.elf  >"mini_project2.lss"
+Finished building: mini_project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4156 bytes (25.4% Full)
+(.text + .data + .bootloader)
+
+Data:         14 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:32:03 **** Incremental Build of configuration Debug for project mini_project2 ****
+make all 
+Building file: ../mini_project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"mini_project2.d" -MT"mini_project2.o" -c -o "mini_project2.o" "../mini_project2.c"
+In file included from ../mini_project2.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../mini_project2.c
+ 
+Building target: mini_project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project2.map -mmcu=atmega16 -o "mini_project2.elf"  ./mini_project2.o   
+Finished building target: mini_project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project2.elf  >"mini_project2.lss"
+Finished building: mini_project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4156 bytes (25.4% Full)
+(.text + .data + .bootloader)
+
+Data:         14 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:47:18 **** Incremental Build of configuration Debug for project mini_project2 ****
+make all 
+Building file: ../mini_project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"mini_project2.d" -MT"mini_project2.o" -c -o "mini_project2.o" "../mini_project2.c"
+In file included from ../mini_project2.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../mini_project2.c
+ 
+Building target: mini_project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project2.map -mmcu=atmega16 -o "mini_project2.elf"  ./mini_project2.o   
+Finished building target: mini_project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project2.elf  >"mini_project2.lss"
+Finished building: mini_project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4156 bytes (25.4% Full)
+(.text + .data + .bootloader)
+
+Data:         14 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:48:00 **** Incremental Build of configuration Debug for project mini_project2 ****
+make all 
+Building file: ../mini_project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"mini_project2.d" -MT"mini_project2.o" -c -o "mini_project2.o" "../mini_project2.c"
+In file included from ../mini_project2.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../mini_project2.c
+ 
+Building target: mini_project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project2.map -mmcu=atmega16 -o "mini_project2.elf"  ./mini_project2.o   
+Finished building target: mini_project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project2.elf  >"mini_project2.lss"
+Finished building: mini_project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4160 bytes (25.4% Full)
+(.text + .data + .bootloader)
+
+Data:         14 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:50:27 **** Incremental Build of configuration Debug for project mini_project2 ****
+make all 
+Building file: ../mini_project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"mini_project2.d" -MT"mini_project2.o" -c -o "mini_project2.o" "../mini_project2.c"
+In file included from ../mini_project2.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../mini_project2.c
+ 
+Building target: mini_project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project2.map -mmcu=atmega16 -o "mini_project2.elf"  ./mini_project2.o   
+Finished building target: mini_project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project2.elf  >"mini_project2.lss"
+Finished building: mini_project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4174 bytes (25.5% Full)
+(.text + .data + .bootloader)
+
+Data:         14 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:55:42 **** Incremental Build of configuration Debug for project mini_project2 ****
+make all 
+Building file: ../mini_project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"mini_project2.d" -MT"mini_project2.o" -c -o "mini_project2.o" "../mini_project2.c"
+In file included from ../mini_project2.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../mini_project2.c
+ 
+Building target: mini_project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project2.map -mmcu=atmega16 -o "mini_project2.elf"  ./mini_project2.o   
+Finished building target: mini_project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project2.elf  >"mini_project2.lss"
+Finished building: mini_project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4200 bytes (25.6% Full)
+(.text + .data + .bootloader)
+
+Data:         14 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:58:45 **** Incremental Build of configuration Debug for project mini_project2 ****
+make all 
+Building file: ../mini_project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"mini_project2.d" -MT"mini_project2.o" -c -o "mini_project2.o" "../mini_project2.c"
+In file included from ../mini_project2.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../mini_project2.c
+ 
+Building target: mini_project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project2.map -mmcu=atmega16 -o "mini_project2.elf"  ./mini_project2.o   
+Finished building target: mini_project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project2.elf  >"mini_project2.lss"
+Finished building: mini_project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4214 bytes (25.7% Full)
+(.text + .data + .bootloader)
+
+Data:         14 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:59:18 **** Incremental Build of configuration Debug for project mini_project2 ****
+make all 
+Building file: ../mini_project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"mini_project2.d" -MT"mini_project2.o" -c -o "mini_project2.o" "../mini_project2.c"
+In file included from ../mini_project2.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../mini_project2.c
+ 
+Building target: mini_project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project2.map -mmcu=atmega16 -o "mini_project2.elf"  ./mini_project2.o   
+Finished building target: mini_project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project2.elf  >"mini_project2.lss"
+Finished building: mini_project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4214 bytes (25.7% Full)
+(.text + .data + .bootloader)
+
+Data:         14 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:01:41 **** Incremental Build of configuration Debug for project mini_project2 ****
+make all 
+Building file: ../mini_project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"mini_project2.d" -MT"mini_project2.o" -c -o "mini_project2.o" "../mini_project2.c"
+In file included from ../mini_project2.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../mini_project2.c
+ 
+Building target: mini_project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project2.map -mmcu=atmega16 -o "mini_project2.elf"  ./mini_project2.o   
+Finished building target: mini_project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project2.elf  >"mini_project2.lss"
+Finished building: mini_project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4188 bytes (25.6% Full)
+(.text + .data + .bootloader)
+
+Data:         14 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:08:37 **** Incremental Build of configuration Debug for project mini_project2 ****
+make all 
+Building file: ../mini_project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"mini_project2.d" -MT"mini_project2.o" -c -o "mini_project2.o" "../mini_project2.c"
+In file included from ../mini_project2.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../mini_project2.c
+ 
+Building target: mini_project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project2.map -mmcu=atmega16 -o "mini_project2.elf"  ./mini_project2.o   
+Finished building target: mini_project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project2.elf  >"mini_project2.lss"
+Finished building: mini_project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4250 bytes (25.9% Full)
+(.text + .data + .bootloader)
+
+Data:         14 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:10:46 **** Incremental Build of configuration Debug for project mini_project2 ****
+make all 
+Building file: ../mini_project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"mini_project2.d" -MT"mini_project2.o" -c -o "mini_project2.o" "../mini_project2.c"
+In file included from ../mini_project2.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../mini_project2.c
+ 
+Building target: mini_project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project2.map -mmcu=atmega16 -o "mini_project2.elf"  ./mini_project2.o   
+Finished building target: mini_project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project2.elf  >"mini_project2.lss"
+Finished building: mini_project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4250 bytes (25.9% Full)
+(.text + .data + .bootloader)
+
+Data:         14 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:17:50 **** Incremental Build of configuration Debug for project mini_project2 ****
+make all 
+Building file: ../mini_project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"mini_project2.d" -MT"mini_project2.o" -c -o "mini_project2.o" "../mini_project2.c"
+In file included from ../mini_project2.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../mini_project2.c
+ 
+Building target: mini_project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project2.map -mmcu=atmega16 -o "mini_project2.elf"  ./mini_project2.o   
+Finished building target: mini_project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project2.elf  >"mini_project2.lss"
+Finished building: mini_project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4230 bytes (25.8% Full)
+(.text + .data + .bootloader)
+
+Data:         14 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:26:50 **** Incremental Build of configuration Debug for project mini_project2 ****
+make all 
+Building file: ../mini_project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"mini_project2.d" -MT"mini_project2.o" -c -o "mini_project2.o" "../mini_project2.c"
+In file included from ../mini_project2.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../mini_project2.c
+ 
+Building target: mini_project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project2.map -mmcu=atmega16 -o "mini_project2.elf"  ./mini_project2.o   
+Finished building target: mini_project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project2.elf  >"mini_project2.lss"
+Finished building: mini_project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4250 bytes (25.9% Full)
+(.text + .data + .bootloader)
+
+Data:         14 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:30:19 **** Incremental Build of configuration Debug for project mini_project2 ****
+make all 
+Building file: ../mini_project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"mini_project2.d" -MT"mini_project2.o" -c -o "mini_project2.o" "../mini_project2.c"
+In file included from ../mini_project2.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../mini_project2.c
+ 
+Building target: mini_project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project2.map -mmcu=atmega16 -o "mini_project2.elf"  ./mini_project2.o   
+Finished building target: mini_project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project2.elf  >"mini_project2.lss"
+Finished building: mini_project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4272 bytes (26.1% Full)
+(.text + .data + .bootloader)
+
+Data:         14 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+03:57:12 **** Incremental Build of configuration Debug for project mini_project2 ****
+make all 
+Building file: ../mini_project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"mini_project2.d" -MT"mini_project2.o" -c -o "mini_project2.o" "../mini_project2.c"
+In file included from ../mini_project2.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../mini_project2.c
+ 
+Building target: mini_project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project2.map -mmcu=atmega16 -o "mini_project2.elf"  ./mini_project2.o   
+Finished building target: mini_project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project2.elf  >"mini_project2.lss"
+Finished building: mini_project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    1158 bytes (7.1% Full)
+(.text + .data + .bootloader)
+
+Data:          6 bytes (0.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+04:00:00 **** Incremental Build of configuration Debug for project mini_project2 ****
+make all 
+Building file: ../mini_project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"mini_project2.d" -MT"mini_project2.o" -c -o "mini_project2.o" "../mini_project2.c"
+In file included from ../mini_project2.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../mini_project2.c
+ 
+Building target: mini_project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project2.map -mmcu=atmega16 -o "mini_project2.elf"  ./mini_project2.o   
+Finished building target: mini_project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project2.elf  >"mini_project2.lss"
+Finished building: mini_project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4272 bytes (26.1% Full)
+(.text + .data + .bootloader)
+
+Data:         14 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+04:00:22 **** Incremental Build of configuration Debug for project mini_project2 ****
+make all 
+Building file: ../mini_project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"mini_project2.d" -MT"mini_project2.o" -c -o "mini_project2.o" "../mini_project2.c"
+In file included from ../mini_project2.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../mini_project2.c
+ 
+Building target: mini_project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,mini_project2.map -mmcu=atmega16 -o "mini_project2.elf"  ./mini_project2.o   
+Finished building target: mini_project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S mini_project2.elf  >"mini_project2.lss"
+Finished building: mini_project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 mini_project2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4272 bytes (26.1% Full)
+(.text + .data + .bootloader)
+
+Data:         14 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 

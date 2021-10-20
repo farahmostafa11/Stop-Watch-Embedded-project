@@ -1,0 +1,20 @@
+04:22:50 **** Incremental Build of configuration Debug for project ex2_timers ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 ex2_timers.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     348 bytes (2.1% Full)
+(.text + .data + .bootloader)
+
+Data:          2 bytes (0.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+
+04:22:50 Build Finished. 0 errors, 0 warnings. (took 334ms)
+
